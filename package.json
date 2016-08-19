@@ -1,0 +1,24 @@
+{
+  "name": "rollup-endpoint",
+  "version": "0.2.0",
+  "description": "The easiest way to serve a rollup bundle.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha test/server_test.js"
+  },
+  "author": "Gilbert <gilbertbagrza@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "rollup": "^0.34.10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mindeavor/rollup-endpoint.git"
+  },
+  "devDependencies": {
+    "express": "^4.13.4",
+    "mocha": "^2.4.5",
+    "rollup-plugin-buble": "^0.13.0",
+    "supertest": "^1.2.0"
+  }
+}
