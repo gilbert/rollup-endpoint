@@ -1,6 +1,6 @@
 # rollup-endpoint
 
-Easily serve a JavaScript bundle – bundled with [rollup.js](http://rollupjs.org/) – from an express endpoint. No grunt/gulp, no build files, no required configuration – just pure data.
+Easily serve a JavaScript bundle – bundled with [rollup.js](http://rollupjs.org/) – from an express.js endpoint. No grunt/gulp, no build files, no required configuration – just pure data.
 
 ### Installation
 
