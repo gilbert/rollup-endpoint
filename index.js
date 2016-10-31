@@ -90,7 +90,7 @@ exports.serve = function (options) {
       })
       .catch(function (err) {
 
-        if ( err instanceof SyntaxError && nodeEnv === 'development' ) {
+        if ( nodeEnv === 'development' ) {
           // Inject error into page
           res.send( errorInjection(err) );
         }
